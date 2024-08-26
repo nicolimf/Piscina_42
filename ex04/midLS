@@ -1,1 +1,1 @@
-ls --ignore".*" -m -t -p
+ls -m -t -p
