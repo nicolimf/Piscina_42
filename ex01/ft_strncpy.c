@@ -6,7 +6,7 @@
 /*   By: nicomart <nicomart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/27 09:50:02 by nicomart          #+#    #+#             */
-/*   Updated: 2024/08/28 10:38:45 by nicomart         ###   ########.fr       */
+/*   Updated: 2024/09/04 15:28:56 by nicomart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,10 +27,12 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 	}
 	return (dest);
 }
-/*int main()
-{
-	char string[] = "Jesus";
-	char string2[] = "Maria";
 
-	printf("%s\n", ft_strncpy(string2, string, 7));
-}*/
+
+int main()
+{
+	char source[] = "chocolate";
+	char dest[] = "";
+
+	printf("%s\n", ft_strncpy(dest, source, 7));
+}

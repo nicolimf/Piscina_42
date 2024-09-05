@@ -6,7 +6,7 @@
 /*   By: nicomart <nicomart@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/27 10:32:09 by nicomart          #+#    #+#             */
-/*   Updated: 2024/08/28 16:53:21 by nicomart         ###   ########.fr       */
+/*   Updated: 2024/09/04 15:24:24 by nicomart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strcpy(char *dest, char *src)
 	while (src[count] != '\0')
 	{
 		dest[count] = src[count];
-		count += 1;
+		count ++;
 	}
 	dest[count] = '\0';
 	return (dest);
